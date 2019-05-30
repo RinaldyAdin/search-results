@@ -150,3 +150,45 @@ a {
     box-shadow:         inset 0 1px 1px rgba(0, 0 , 0, 0.1);
     color: black;
 }
+
+#all {
+    position: relative;
+    width: 600px;
+    left: 140px;
+}
+
+#stats {
+    font-size: 13px;
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.result {
+    margin: 20px 0;
+    padding-left: 10px;
+}
+
+.result a {
+    display: block;
+}
+
+.result .title {
+    font-size: 18px;
+}
+
+.result .title:hover {
+    text-decoration: underline;
+}
+
+.result .url {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #006621;
+}
+
+.result p {
+    margin: 0;
+    font-size: 13px;
+    line-height: 23px;
+}
