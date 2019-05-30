@@ -1,0 +1,152 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.head {
+    padding: 20px;
+    display: block;
+    height: 30px;
+}
+
+#top .right {
+    padding: 15px 20px;
+}
+
+.head ul {
+    overflow: hidden;
+}
+
+.head ul li {
+    float: left;
+}
+
+.left {
+    display: block;
+    float: left;
+}
+
+.right {
+    display: block;
+    float: right;
+}
+
+#search {
+    position: relative;
+    bottom: 10px;
+    margin: 10px 20px;
+    width: 550px;
+    padding: 13px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+}
+
+#search:hover {
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#search:focus {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    outline: none;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+#logo {
+    float: left;
+    width: 92px;
+}
+
+#products {
+    width: 20px;
+    height: 20px;
+    margin: 0px 25px;
+}
+
+#signIn {
+    padding:7px 10px;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #4387fd;
+    border: 1px solid rgb(66, 133, 244);
+    border-radius: 3px;
+    color: white;
+}
+
+#signIn:active {
+    background-color: rgb(66, 133, 244);
+}
+
+#bottom {
+    font-size: 14px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    position: relative;
+    padding-bottom: 15px;
+    bottom: 10px;
+}
+
+#bottom div.left {
+    margin: 0 0 0 90px;
+    width: 630px;
+    /* border: 1px solid black; */
+}
+
+#bottom li {
+    padding: 10px;
+    text-align: center;
+}
+
+#bottom a {
+    color: #777;
+}
+
+#bottom a:hover {
+    color: black;
+}
+
+#bottom a:active {
+    color: rgb(66, 133, 244);
+}
+
+#current {
+    margin-left: 30px;
+    border-bottom: 3px solid rgb(66, 133, 244);
+    height: 22px;
+}
+
+#current a {
+    color: #1A73E8;
+}
+
+#current a:hover {
+    color: #1A73E8;
+}
+
+#tools a{
+    margin-right: 2px;
+    padding: 5px 15px;
+    border: 1px solid transparent;
+}
+
+#tools a:hover {
+    box-sizing: content-box;
+    background-color: #f1f1f1;
+    border: 1px solid rgb(198, 198, 198);
+    border-radius: 2px;
+    color: #777;
+}
+
+#tools a:active {
+    -moz-box-shadow:    inset 0 1px 1px rgba(0, 0 , 0, 0.1);
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0 , 0, 0.1);
+    box-shadow:         inset 0 1px 1px rgba(0, 0 , 0, 0.1);
+    color: black;
+}
