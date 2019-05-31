@@ -85,7 +85,7 @@ a {
     background-color: rgb(66, 133, 244);
 }
 
-#bottom {
+header #bottom {
     font-size: 14px;
     border-bottom: 1px solid rgba(0, 0, 0, 0.1);
     position: relative;
@@ -93,26 +93,26 @@ a {
     bottom: 10px;
 }
 
-#bottom div.left {
+header #bottom div.left {
     margin: 0 0 0 90px;
     width: 630px;
     /* border: 1px solid black; */
 }
 
-#bottom li {
+header #bottom li {
     padding: 10px;
     text-align: center;
 }
 
-#bottom a {
+header #bottom a {
     color: #777;
 }
 
-#bottom a:hover {
+header #bottom a:hover {
     color: black;
 }
 
-#bottom a:active {
+header #bottom a:active {
     color: rgb(66, 133, 244);
 }
 
@@ -175,10 +175,11 @@ a {
 
 .result .title {
     font-size: 18px;
+    color: #1a0dab;
 }
 
 .result .title:hover {
-    text-decoration: underline;
+    text-decoration: underline;    
 }
 
 .result .url {
@@ -191,4 +192,94 @@ a {
     margin: 0;
     font-size: 13px;
     line-height: 23px;
+}
+
+#related {
+    width: 100%;
+    position: relative;
+    left: 10px;
+    height: 150px;
+}
+
+#related p {
+    font-size: 18px;
+    margin-top:45px;
+    margin-bottom: 20px;
+}
+
+#related ul {
+    box-sizing: border-box;
+    width: 50%;
+}
+
+#related ul a {
+    display: block;
+    color: #1a0dab;
+    font-size: 15px;
+    margin: 8px 0;
+}
+
+#related ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+
+}
+
+footer div {
+    background-color: #f2f2f2;
+    color: #5F6368;
+    height: 20px;
+    padding: 10px 150px;
+    border-top: 1px solid rgb(228, 228, 228);
+}
+
+#country {
+    padding: 3px 0;
+    padding-right: 25px; 
+    line-height: 15px;
+    border-right: 1px solid rgb(228, 228, 228);
+}
+
+#location {
+    font-size: 13px;
+    margin-left: 25px;
+}
+
+#location strong {
+    color: black;
+}
+
+#location a {
+    color: #5F6368;
+}
+
+#location a:hover {
+    color: black;
+}
+
+footer #bottom ul {
+    margin: 0;
+    padding: 0;
+}
+
+footer #bottom li {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+footer #bottom li a{
+    color: #5F6368;
+    font-size: 13px;
+}
+
+footer #bottom li a:hover{
+    color: black;
 }
